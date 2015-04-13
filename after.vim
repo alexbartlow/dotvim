@@ -22,4 +22,6 @@ if has('gui_running')
   if filereadable(expand("~/.gvimrc.after"))
     source ~/.gvimrc.after
   endif
-end
+endif
+
+set expandtab
